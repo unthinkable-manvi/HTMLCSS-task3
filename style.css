@@ -1,0 +1,90 @@
+body{
+   background-image: url("4642059.jpg");
+    background-repeat:no-repeat ;
+    background-size: cover;  
+}
+.clearfix {
+    overflow: auto;
+  }
+.container{
+  width: 1140px;
+}
+.left-container{
+     width:20%;
+     float: left;
+     padding: 60px;
+     /* border: 3px solid green; */
+}
+h2{
+    color: black;
+}
+.info{
+    border: 2px solid none;
+    text-align: center;
+    font-family: Monospace;
+    font-size: 13px;
+    border-radius: 16px;
+    padding: 5px;
+    color: blue;
+    background-color: bisque;
+}
+#button1{
+      border: 2px solid #FF1493;
+      padding: 8px 30px 8px 30px;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 10px;;
+      background-color: #FF1493;
+
+}
+.right-container{
+    width:66%;
+     float: left;
+    padding: 10px;
+    /* border:  3px solid gold;  */
+    justify-content: space-around;
+    
+}
+.card{
+    border:  1px solid none;
+    background-color: bisque;
+    width:  30%;
+    border-radius: 15px;
+    text-align: center; 
+    justify-content: center;
+    float: left;
+    margin: 11px 10px 11px 10px;
+}
+.heading{
+    border:1px solid #FF1493;
+    border-radius: 15px 15px 0px 0px;
+    background-color:#FF1493;
+    padding: 5px;
+}
+.image-container{
+    padding: 50px;
+}
+
+.btn{
+    padding:20px;
+    /* border: 1px solid green; */
+    justify-content: space-around;
+}
+#btn1{
+    border: 2px solid blue;
+    background-color:blue;
+    border-radius: 10px;
+    padding:  8px 50px 8px 50px ;
+    font-size: 15px;
+    margin: 0px 10px 5px 10px;
+}
+#btn2{
+    border: 2px solid #FF1493;
+    background-color: #FF1493;
+    
+    border-radius: 10px;
+    padding:  8px 30px 8px 30px ;
+    font-size: 15px;
+    margin: 0px 5px 5px 5px;
+}
